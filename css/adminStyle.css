@@ -1,0 +1,97 @@
+
+body {
+    margin: 0;
+    min-width: 250px;
+  }
+  
+  /* Include the padding and border in an element's total width and height */
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  /* Style the header */
+  .header {
+    background-color: green;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Clear floats after the header */
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .header #bt_change {
+    background-color: green;
+    padding: 30px 40px;
+    color: black;
+    text-align: center;
+  }
+  
+  /* Style the input */
+  input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    padding: 10px;
+    float: right;
+    font-size: 16px;
+  }
+  
+  
+  .dropbtn {
+      background-color: green;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: auto;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+      background-color: green;
+      
+  }
+  .dropbtn #out_id {
+     background-color: white;
+      color: black;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: text;
+      
+  }
+  .dropdown {
+      position: relative;
+      display: inline-block;
+  }
+  
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 100px;
+      overflow: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+  }
+  
+  .dropdown-content-input {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+  
+  #bt_change{
+  float:right;
+  background-color: green;
+  }

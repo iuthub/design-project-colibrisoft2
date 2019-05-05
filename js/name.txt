@@ -1,0 +1,7 @@
+name="regType"
+name="certificateType"
+name="score"
+name="FName"
+name="LName"
+name="UCountry"
+name="MNumber"
